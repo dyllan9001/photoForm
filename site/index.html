@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
 
 <h2>Text input fields</h2>
 
-<form action="/action_page.php" target="_blank" method="post">
+<form action="/data/vote" target="invisible" method="post">
 	
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe">
 <h1>
- 	<input type="radio" id="Person" name="Person" value="Dyllan">
+ 	<input type="radio" id="DyllanTag" name="Person" value="Dyllan">
   	<label for="male">Dyllan</label><br>
- 	<input type="radio" id="Person" name="Person" value="Cassidy">
+ 	<input type="radio" id="CassidyTag" name="Person" value="Cassidy">
  	<label for="female">Cassidy</label><br>
-	<input type="radio" id="Person" name="Person" value="Lacey">
+	<input type="radio" id="LaceyTag" name="Person" value="Lacey">
 	<label for="other">Lacey</label><br>
- 	<input type="radio" id="Person" name="Person" value="Jeb">
+ 	<input type="radio" id="JebTag" name="Person" value="Jeb">
 <label for="other">Jeb</label><br>
-    <input type="radio" id="Person" name="Person" value="Alan">
+    <input type="radio" id="AlanTag" name="Person" value="Alan">
 <label for="other">Alan</label><br>
-      <input type="radio" id="Person" name="Person" value="Mariah">
+      <input type="radio" id="MariahTag" name="Person" value="Mariah">
 <label for="other">Mariah</label><br>
-        <input type="radio" id="Person" name="Person" value="Jordan">
+        <input type="radio" id="JordanTag" name="Person" value="Jordan">
 <label for="other">Jordan</label><br>
-          <input type="radio" id="Person" name="Person" value="Merideth">
-<label for="other">Merideth</label><br>
-  <input type="radio" id="Person" name="Person" value="Dad">
+          <input type="radio" id="MeridethTag" name="Person" value="Meredith">
+<label for="other">Maredith</label><br>
+  <input type="radio" id="DadTag" name="Person" value="Dad">
 <label for="other">Dad</label><br> 
- <input type="radio" id="Person" name="Person" value="Mom">
-<label for="other">Mom</label><br>
+ <input type="radio" id="MomTag" name="Person" value="Mom">
+<label for="other">Mom</label><br><br>
+  <label for="Date">Date:</label>
+  <input type="date" id="Date" name="Date"><br>
  <input type="submit" value="Submit">
+ <iframe id="invisible" name="invisible" style="display:none;"></iframe>
+
         </h1>
 </form>
 
 <p> Don't Vote more than once<p>
 	<p> voting for yourself is illegal and will put you under sentence through court marshal law<p>
-</body>
+</head>
+
+<body>
+
 </html>
